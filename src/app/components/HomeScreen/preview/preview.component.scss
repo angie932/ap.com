@@ -67,6 +67,10 @@ flex-shrink: 0;
 }
 }
 
+.ads{
+  height: 500px;
+}
+
 .right-side {
 width: 280px;
 flex-shrink: 0;
@@ -1013,6 +1017,14 @@ display: none;
   background-color: #e2dbdb;
 }
 
+.user:hover{
+  background-color: rgb(204, 204, 204);
+  border-radius: 10px;
+}
+.user{
+  transition: all .5s ease;
+  padding:5px;
+}
 /*------------------------RESPONSIVE---------------------------------*/
 
 @media screen and (max-width:1280px){
